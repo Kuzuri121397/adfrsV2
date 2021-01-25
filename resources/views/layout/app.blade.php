@@ -4,9 +4,6 @@
 	<title>{{config('app.name', 'ADFRS')}}</title>
 </head>
 <body>
-	@section('navbar')
-	<br><strong>This is the navbar</strong>
-	@show
-
+	@yield('content')
 </body>
 </html>

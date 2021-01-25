@@ -1,2 +1,6 @@
-<h1>This is the contact us page</h1>
 @extends('layout.app')
+
+@section('content')
+	<h1>{{$contactTitle}}</h1>
+	<strong>Rizon gwapo</strong>
+@endsection
