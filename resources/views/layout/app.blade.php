@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>@yield('title')</title>
+	<title>{{config('app.name', 'ADFRS')}}</title>
 </head>
 <body>
 	@section('navbar')
