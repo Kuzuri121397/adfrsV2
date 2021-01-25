@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel<br>
+                    Rizon Gwapo
                 </div>
 
                 <div class="links">

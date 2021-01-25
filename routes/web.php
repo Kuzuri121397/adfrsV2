@@ -18,3 +18,8 @@ Route::get('/', function () {
 });
 
 
+Route::get('/register', 'PagesController@register');
+Route::get('/contactus', 'PagesController@contactus');
+Route::get('/about', 'PagesController@aboutus');
+
+
